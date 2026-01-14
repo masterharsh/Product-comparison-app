@@ -35,7 +35,7 @@ const CompareContainer = ({ compare, setCompare }) => {
                 <div key={p.id}>
                   <div>
                     {p.name}
-                    <span onClick={() => removeProduct(p.id)}> X </span>
+                    <button onClick={() => removeProduct(p.id)}> X </button>
                   </div>
                 </div>
               ))}

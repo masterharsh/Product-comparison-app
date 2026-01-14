@@ -9,7 +9,13 @@ const AppContainer = () => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) setTheme(savedTheme);
+  }, []); // Fetching saved theme from localStorage
+
+  useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   return (

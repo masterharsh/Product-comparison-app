@@ -1,9 +1,38 @@
+/* Light theme (default) */
+:root {
+  --bg: #f7f7f8;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted-text: #6b7280;
+  --border: #e5e7eb;
+  --highlight: #fff8e1;
+  --accent: #2563eb;
+  --compare-bar-bg: #eaff5c;
+  --card-surface: #fff;
+  --compare-bg: #f0f0f0;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --surface: #111827;
+  --text: #e5e7eb;
+  --muted-text: #9ca3af;
+  --border: #1f2937;
+  --highlight: #1e293b;
+  --accent: #60a5fa;
+  --compare-bar-bg: #2563eb;
+  --card-surface: #051f74;
+  --compare-bg: var(--muted-text);
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #f5f7fa;
+  background: var(--bg);
+  color: var(--text);
   overflow: hidden; /* kills root scroll */
 }
 .app-container {
@@ -58,7 +87,7 @@ h2 {
 }
 
 .compare-bar {
-  background: #eaff5c;
+  background: var(--compare-bar-bg);
   border-radius: 50px;
   margin: 10px;
   padding: 15px;
@@ -71,7 +100,7 @@ h2 {
 }
 
 .card {
-  background: white;
+  background: var(--card-surface);
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -132,17 +161,9 @@ h2 {
   cursor: not-allowed;
 }
 
-.compare-section {
-  margin-top: 40px;
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 40px;
-}
-
 .clear {
-  background: #ef4444;
-  color: white;
+  background: var(--accent);
+  color: #fff;
   border: none;
   padding: 8px 12px;
   border-radius: 6px;
@@ -188,8 +209,10 @@ h2 {
 .compare-section {
   position: relative;
   padding: 24px;
-  background: #fafafa;
+  background: var(--compare-bg);
   overflow-x: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 /* Clear button */
@@ -218,7 +241,8 @@ h2 {
   display: grid;
   grid-template-columns: 180px repeat(auto-fit, minmax(160px, 1fr));
   align-items: center;
-  background: #fff;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 10px;
 }
@@ -227,7 +251,7 @@ h2 {
 .compare-table .row.header {
   position: sticky;
   top: 0;
-  background: #f0f0f0;
+  background: var(--highlight);
   font-weight: 600;
   z-index: 2;
 }
@@ -235,28 +259,30 @@ h2 {
 /* Feature label column */
 .compare-table .label {
   font-weight: 500;
-  color: #333;
+  color: var(--text);
 }
 
 /* Product cell */
 .compare-table .row > div {
   padding: 6px 10px;
   font-size: 0.95rem;
-  color: #444;
+  color: var(--muted-text);
 }
 
 /* Highlight differing values */
 .compare-table .row.highlight {
-  border: 1px solid #ffd54f;
-  background: #fffdf2;
+  border: 1px solid var(--accent);
+  background: var(--highlight);
 }
 
 /* Product title + remove */
-.compare-table .row.header span {
+.compare-table .row.header button {
   margin-left: 8px;
   color: #d32f2f;
   cursor: pointer;
   font-weight: 200;
+  background: transparent;
+  border: none;
 }
 
 /* =========================
@@ -319,4 +345,5 @@ h2 {
   border-radius: 999px;
   cursor: pointer;
   font-size: 0.9rem;
+  z-index: 100;
 }
