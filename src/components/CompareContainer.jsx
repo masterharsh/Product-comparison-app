@@ -10,7 +10,7 @@ const CompareContainer = ({ compare, setCompare }) => {
 
   const comparisonKeys = {
     name: "Name",
-    price: "Price",
+    price: "Price (₹)",
     brand: "Brand",
     battery: "Battery (mAh)",
     screen: "Screen (inches)",

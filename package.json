@@ -10,7 +10,8 @@
     "main": false
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel index.html --port 3100",
+    "build": "npx parcel build index.html"
   },
   "devDependencies": {
     "parcel": "^2.16.3"

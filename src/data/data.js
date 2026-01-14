@@ -11,7 +11,7 @@ export const mockData = [
     FPSensor: "No",
     os: "Feature phone",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/112809-v1-nokia-3310-new-mobile-phone-hres-1.jpg?tr=w-271,c-at_max,q-70,t-true",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/153815-v10-samsung-galaxy-a14-5g-mobile-phone-hres-7.jpg?tr=h-630,q-70",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const mockData = [
     FPSensor: "No",
     os: "iOS",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/140876-v3-apple-iphone-13-mobile-phone-hres-1.jpg?tr=w-271,c-at_max,q-70,t-true",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/150782-v8-oneplus-nord-ce-3-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/149189-v6-xiaomi-redmi-note-12-pro-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/150253-v4-realme-c55-mobile-phone-hres-1.jpg?tr=h-630,c-at_max,q-70",
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/148752-v5-samsung-galaxy-s23-ultra-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 9,
@@ -109,7 +109,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "iOS",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/148501-v3-apple-iphone-se-2022-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 10,
@@ -123,11 +123,11 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/153112-v5-moto-g73-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 11,
-    name: "Vivo Y20",
+    name: "Vivo Y200",
     brand: "Vivo",
     price: 139.99,
     battery: "5000",
@@ -137,7 +137,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/159360-v4-vivo-y200-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 12,
@@ -151,7 +151,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/151023-v6-oppo-a78-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 13,
@@ -165,7 +165,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/149293-v5-google-pixel-7-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 14,
@@ -179,11 +179,11 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/157717-v2-infinix-hot-30-5g-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 15,
-    name: "TecNo Spark 10",
+    name: "TecNo Spark 30C",
     brand: "TecNo",
     price: 109.99,
     battery: "5000",
@@ -193,7 +193,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/164809-v7-tecno-spark-30c-mobile-phone-hres-1.jpg?tr=h-630,q-70",
   },
   {
     id: 16,
@@ -207,7 +207,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/149632-v2-sony-xperia-5-iv-5g-mobile-phone-hres-3.jpg?tr=h-630,q-70",
   },
   {
     id: 17,
@@ -221,7 +221,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/151005-v2-asus-rog-phone-7-mobile-phone-hres-3.jpg?tr=h-630,q-70",
   },
   {
     id: 18,
@@ -235,7 +235,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/152621-v4-nothing-phone-2-mobile-phone-hres-3.jpg?tr=h-630,q-70",
   },
   {
     id: 19,
@@ -249,7 +249,7 @@ export const mockData = [
     FPSensor: "Yes",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/154810-v2-lava-agni-2-5g-mobile-phone-hres-2.jpg?tr=h-630,q-70",
   },
   {
     id: 20,
@@ -263,6 +263,6 @@ export const mockData = [
     FPSensor: "No",
     os: "Android",
     image:
-      "https://www.91-img.com/pictures/171980-v6-oppo-reno15-mobile-phone-hres-1.jpg?tr=h-630,q-70",
+      "https://www.91-img.com/pictures/145323-v4-reliance-jiophone-next-mobile-phone-hres-3.jpg?tr=h-630,q-70",
   },
 ];
