@@ -6,7 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
-const CompareBar = ({ compare, setCompare }) => {
+const CompareWidget = ({ compare, setCompare }) => {
   const removeProduct = (id) => {
     setCompare(compare.filter((p) => p.id !== id));
   };
@@ -15,7 +15,7 @@ const CompareBar = ({ compare, setCompare }) => {
     <>
       {compare.length >= 2 && (
         <div
-          className="compare-bar"
+          className="compare-widget"
           onClick={() => (window.location.href = "#compare-section")}
         >
           <FontAwesomeIcon icon="fa-solid fa-scale-balanced" />
@@ -25,4 +25,4 @@ const CompareBar = ({ compare, setCompare }) => {
   );
 };
 
-export default CompareBar;
+export default CompareWidget;

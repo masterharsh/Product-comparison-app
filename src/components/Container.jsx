@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { mockData } from "../data/data.js";
 import Card from "./Card.jsx";
 import CompareContainer from "./CompareContainer.jsx";
-import CompareBar from "./CompareBar.jsx";
+import CompareWidget from "./CompareWidget.jsx";
 
 export default function Container() {
   const [compare, setCompare] = useState(() => {
@@ -11,12 +11,11 @@ export default function Container() {
 
   return (
     <div className="container">
-      {/* <h1>Product Comparison</h1> */}
       <CompareContainer
         compare={compare}
         setCompare={setCompare}
       ></CompareContainer>
-      <CompareBar compare={compare} setCompare={setCompare}></CompareBar>
+      <CompareWidget compare={compare} setCompare={setCompare}></CompareWidget>
       <div className="product-grid">
         {mockData.map((product) => (
           <Card

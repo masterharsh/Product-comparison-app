@@ -7,7 +7,7 @@
   --border: #e5e7eb;
   --highlight: #fff8e1;
   --accent: #2563eb;
-  --compare-bar-bg: #b5c5fa;
+  --compare-widget-bg: #b5c5fa;
   --card-surface: #fff;
   --compare-bg: #f0f0f0;
   --label-bg: #e5e7eb;
@@ -23,7 +23,7 @@
   --border: #1f2937;
   --highlight: #1e293b;
   --accent: #60a5fa;
-  --compare-bar-bg: #2563eb;
+  --compare-widget-bg: #2563eb;
   --card-surface: #051f74;
   --compare-bg: var(--muted-text);
   --label-bg: #1f2937;
@@ -90,8 +90,8 @@ h2 {
   gap: 20px;
 }
 
-.compare-bar {
-  background: var(--compare-bar-bg);
+.compare-widget {
+  background: var(--compare-widget-bg);
   border-radius: 50px;
   margin: 10px;
   padding: 15px;
