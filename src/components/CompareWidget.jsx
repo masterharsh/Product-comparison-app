@@ -6,11 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
-const CompareWidget = ({ compare, setCompare }) => {
-  const removeProduct = (id) => {
-    setCompare(compare.filter((p) => p.id !== id));
-  };
-
+const CompareWidget = ({ compare }) => {
   return (
     <>
       {compare.length >= 2 && (

@@ -15,7 +15,7 @@ export default function Container() {
         compare={compare}
         setCompare={setCompare}
       ></CompareContainer>
-      <CompareWidget compare={compare} setCompare={setCompare}></CompareWidget>
+      <CompareWidget compare={compare}></CompareWidget>
       <div className="product-grid">
         {mockData.map((product) => (
           <Card

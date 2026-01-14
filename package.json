@@ -6,14 +6,18 @@
   "author": "Harsh Jain",
   "type": "commonjs",
   "main": "App.js",
+  "homepage": "https://masterharsh.github.io/Product-comparison-app",
   "targets": {
     "main": false
   },
   "scripts": {
     "start": "npx parcel index.html --port 3100",
-    "build": "npx parcel build index.html"
+    "build": "npx parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.3"
   },
   "dependencies": {
