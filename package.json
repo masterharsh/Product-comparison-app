@@ -1,0 +1,33 @@
+{
+  "name": "product-comparison-app",
+  "version": "1.0.0",
+  "description": "This is an assessment task by Addteq to Build a Product Comparison UI!",
+  "license": "ISC",
+  "author": "Harsh Jain",
+  "type": "commonjs",
+  "main": "App.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-regular-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserlist": [
+    "last 5 chrome version",
+    "last 5 firefox version",
+    "last 5 safari version",
+    "last 5 edge version"
+  ]
+}
