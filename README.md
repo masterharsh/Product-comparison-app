@@ -70,6 +70,9 @@ Built using **React**, this project focuses on clean UX, dynamic UI rendering, a
 ### Installation
 
 1- git clone https://github.com/masterharsh/Product-comparison-app.git
+
 2- cd Product-comparison-app
+
 3- npm install
+
 4- npm run start
