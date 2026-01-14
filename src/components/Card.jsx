@@ -20,7 +20,7 @@ const Card = ({ product, compare, setCompare }) => {
     } else if (compare.length < 3) {
       setCompare([...compare, product]);
     }
-  };
+  }; // updates the "compare" state by adding or removing the product
 
   return (
     <div className="card" key={product.id}>
