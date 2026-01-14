@@ -2,6 +2,8 @@ This is an assessment task by Addteq.
 
 ### Author: Harsh Jain
 
+## Link: https://masterharsh.github.io/Product-comparison-app/
+
 Task: Build a Mobile Comparison UI.
 
 An interactive, responsive web application that allows users to compare multiple products side-by-side.
